@@ -1,10 +1,54 @@
-import React from 'react'
-import './Footer.scss' ;
+import React from "react";
+import { BsDiscord } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillGoogleCircle } from "react-icons/ai";
+import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer>
+      <a href="#" className="Footer-Logo">Abderrahmane Abouarrouche</a>
+      <ul className="Permalinks">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#About">About</a>
+        </li>
+        <li>
+          <a href="#Experience">Experience</a>
+        </li>
+        <li>
+          <a href="#Services">Services</a>
+        </li>
+        <li>
+          <a href="#Portfolio">Portfolio</a>
+        </li>
+        <li>
+          <a href="#Testimonials">Testimonials</a>
+        </li>
+        <li>
+          <a href="#Contact">Contact</a>
+        </li>
+      </ul>
 
-export default Footer
+      <div className="Footer-Socials">
+        <a href="https://google.com">
+          <AiFillGoogleCircle />
+        </a>
+        <a href="https://Discord.com">
+          <BsDiscord />
+        </a>
+        <a href="https://github.com">
+          <AiFillGithub />
+        </a>
+      </div>
+
+      <div className="Footer-Copyright">
+        <small>&copy; Abderrahmane Abouarrouche. All Rights Reserved.</small>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
