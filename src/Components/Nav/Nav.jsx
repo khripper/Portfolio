@@ -5,7 +5,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { AiOutlineBook } from "react-icons/ai";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageAltDetail } from "react-icons/bi";
-import "./Nav.scss";
+import "./Nav.css";
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
