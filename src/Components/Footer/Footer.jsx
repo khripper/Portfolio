@@ -7,10 +7,12 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="Footer-Logo">Abderrahmane Abouarrouche</a>
+      <a href="#" className="Footer-Logo">
+        Abderrahmane Abouarrouche
+      </a>
       <ul className="Permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#About">About</a>
@@ -33,13 +35,13 @@ const Footer = () => {
       </ul>
 
       <div className="Footer-Socials">
-        <a href="https://google.com">
+        <a href="https://google.com" target="_blank" rel="noreferrer">
           <AiFillGoogleCircle />
         </a>
-        <a href="https://Discord.com">
+        <a href="https://Discord.com" target="_blank" rel="noreferrer">
           <BsDiscord />
         </a>
-        <a href="https://github.com">
+        <a href="https://github.com" target="_blank" rel="noreferrer">
           <AiFillGithub />
         </a>
       </div>

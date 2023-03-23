@@ -44,7 +44,11 @@ const Contact = () => {
             <MdOutlineMailOutline className="Contact-Option-Icon" />
             <h4>Email</h4>
             <h5>khabdo2901@gmail.com</h5>
-            <a href="mailto:khabdo2901@gmail.com" target="_blank">
+            <a
+              href="mailto:khabdo2901@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -52,7 +56,7 @@ const Contact = () => {
             <BsMessenger className="Contact-Option-Icon" />
             <h4>Messenger</h4>
             <h5>Abdo Wins</h5>
-            <a href="https://www.google.com" target="_blank">
+            <a href="https://www.google.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -60,7 +64,11 @@ const Contact = () => {
             <BsDiscord className="Contact-Option-Icon" />
             <h4>Discord</h4>
             <h5>KH-RIPPER#2729</h5>
-            <a href="https://discord.gg/QB7qszaY" target="_blank">
+            <a
+              href="https://discord.gg/QB7qszaY"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>

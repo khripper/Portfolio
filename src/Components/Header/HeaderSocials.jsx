@@ -5,13 +5,13 @@ import { BsYoutube } from "react-icons/bs";
 const HeaderSocials = () => {
   return (
     <div className="HeaderSocials">
-      <a href="https://google.com" target="_blank">
+      <a href="https://google.com" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="https://google.com" target="_blank">
+      <a href="https://google.com" target="_blank" rel="noreferrer">
         <BsGithub />
       </a>
-      <a href="https://google.com" target="_blank">
+      <a href="https://google.com" target="_blank" rel="noreferrer">
         <BsYoutube />
       </a>
     </div>
