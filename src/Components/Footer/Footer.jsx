@@ -1,7 +1,7 @@
 import React from "react";
 import { BsDiscord } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
-import { AiFillGoogleCircle } from "react-icons/ai";
+import { AiFillFacebook } from "react-icons/ai";
 import "./Footer.scss";
 
 const Footer = () => {
@@ -35,13 +35,13 @@ const Footer = () => {
       </ul>
 
       <div className="Footer-Socials">
-        <a href="https://google.com" target="_blank" rel="noreferrer">
-          <AiFillGoogleCircle />
+        <a href="https://www.facebook.com/khabdo29/" target="_blank" rel="noreferrer">
+          <AiFillFacebook />
         </a>
-        <a href="https://Discord.com" target="_blank" rel="noreferrer">
+        <a href="https://discord.com/users/333657345290797057" target="_blank" rel="noreferrer">
           <BsDiscord />
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/khripper" target="_blank" rel="noreferrer">
           <AiFillGithub />
         </a>
       </div>
