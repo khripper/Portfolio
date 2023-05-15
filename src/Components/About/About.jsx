@@ -7,7 +7,7 @@ import Me from "../../Assets/Man.png";
 const About = () => {
   return (
     <section id="About">
-      <h5>Get To Know</h5>
+      <h5 className="white">Get To Know</h5>
       <h2>Me</h2>
       <div className="container About-Container">
         <div className="About-Me">
@@ -30,7 +30,7 @@ const About = () => {
             <article className="About-Card">
               <BsFolderCheck className="About-icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small >80+ Completed</small>
             </article>
           </div>
           <p>

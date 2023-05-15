@@ -1,7 +1,6 @@
 import React from "react";
-import IMG1 from "../../Assets/Portfolio-1.jpg";
+import IMG1 from "../../Assets/Gzones.png";
 import IMG2 from "../../Assets/Portfolio-2.jpg";
-import IMG3 from "../../Assets/Portfolio-3.jpg";
 import "./Portfolio.scss";
 
 // ERRAY//
@@ -10,51 +9,25 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    title: "Responsive website  and fostering interactive experiences.",
     github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    demo: "https://gszone.netlify.app/",
   },
   {
     id: 2,
     image: IMG2,
     title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
+    github: "https://github.com/khripper/GZONE.git",
     demo: "https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
   },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
-  {
-    id: 4,
-    image: IMG1,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
-  {
-    id: 5,
-    image: IMG2,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
-  {
-    id: 6,
-    image: IMG3,
-    title: "Crypto Currency Dashboard & Financial Visualization",
-    github: "https://github.com",
-    demo: "https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
-  },
+
+
 ];
 
 const Porfolio = () => {
   return (
     <section id="Portfolio">
-      <h5>My Recent Work</h5>
+      <h5 className="white">My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container Portfolio-Container">
         {data.map(({ id, image, title, github, demo }) => {

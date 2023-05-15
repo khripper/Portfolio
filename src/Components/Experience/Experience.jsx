@@ -5,7 +5,7 @@ import "./Experience.scss";
 const Experience = () => {
   return (
     <section id="Experience">
-      <h5>What Skills I Have</h5>
+      <h5 className="white">What Skills I Have</h5>
       <h2>My Experience</h2>
       {/* FRONTEND */}
       <div className="container Experience-Container">
@@ -50,7 +50,7 @@ const Experience = () => {
           </div>
         </div>
         {/* BACKEND */}
-        <div className="Experience-Backend">
+        {/* <div className="Experience-Backend">
           <h3>Backend Developement</h3>
           <div className="Experience-Content">
             <article className="Experience-Details">
@@ -89,7 +89,7 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

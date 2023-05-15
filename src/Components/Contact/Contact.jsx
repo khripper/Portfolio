@@ -36,7 +36,7 @@ const Contact = () => {
   };
   return (
     <section id="Contact">
-      <h5>Get In Touch</h5>
+      <h5 className="white">Get In Touch</h5>
       <h2>Contact Me</h2>
       <div className="container Contact-Container">
         <div className="Contact-Options">
@@ -45,7 +45,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>khabdo2901@gmail.com</h5>
             <a
-              href="mailto:khabdo2901@gmail.com"
+              href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
               target="_blank"
               rel="noreferrer"
             >
@@ -56,7 +56,7 @@ const Contact = () => {
             <BsMessenger className="Contact-Option-Icon" />
             <h4>Messenger</h4>
             <h5>Abdo Wins</h5>
-            <a href="https://www.google.com" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/khabdo29/" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -65,7 +65,7 @@ const Contact = () => {
             <h4>Discord</h4>
             <h5>KH-RIPPER#2729</h5>
             <a
-              href="https://discord.gg/QB7qszaY"
+              href="https://discord.com/users/333657345290797057"
               target="_blank"
               rel="noreferrer"
             >

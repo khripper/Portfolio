@@ -1,6 +1,8 @@
 .Experience-Container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 0.5fr ;
     gap:2rem;
 }
 

@@ -5,7 +5,7 @@ import "./Services.scss";
 const Services = () => {
   return (
     <section id="Services">
-      <h5>What I Offer</h5>
+      <h5 className="white">What I Offer</h5>
       <h2>Services</h2>
       <div className="container Services-Container">
         <article className="Service">
@@ -15,27 +15,19 @@ const Services = () => {
           <ul className="Service-List">
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>I specialize in creating captivating digital art.</p>
             </li>
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>I'm a Canvas expert for impactful logos and designs.</p>
             </li>
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>I design captivating websites using Figma.</p>
             </li>
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>Responsive web design expert.</p>
             </li>
           </ul>
         </article>
@@ -47,32 +39,24 @@ const Services = () => {
           <ul className="Service-List">
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>HTML pro creating impressive web experiences.</p>
             </li>
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>CSS guru crafting stunning styles.</p>
             </li>
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>JavaScript whiz building dynamic sites.</p>
             </li>
             <li>
               <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <AiOutlineCheck className="Service-List-Icon" />
-              <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
+              <p>TypeScript learner exploring new frontiers.</p>
             </li>
           </ul>
         </article>
         {/* END Second */}
-        <article className="Service">
+        {/* <article className="Service">
           <div className="Service-Head">
             <h3>Content Creation</h3>
           </div>
@@ -102,7 +86,7 @@ const Services = () => {
               <p>Lorem, ipsum dolor sit amet consectetur elit.</p>
             </li>
           </ul>
-        </article>
+        </article> */}
         {/* END THIRD */}
       </div>
     </section>
