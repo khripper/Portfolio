@@ -1,6 +1,6 @@
 import React from "react";
 import IMG1 from "../../Assets/Gzones.png";
-import IMG2 from "../../Assets/Portfolio-2.jpg";
+import IMG2 from "../../Assets/Portfolio-M.png";
 import "./Portfolio.scss";
 
 // ERRAY//
@@ -10,15 +10,15 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Responsive website  and fostering interactive experiences.",
-    github: "https://github.com",
+    github: "https://github.com/khripper/GZONE.git",
     demo: "https://gszone.netlify.app/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Crypto Currency Dashboard & Financial Visualization",
+    title: "Responsive Portfolio Website with interactive Interface",
     github: "https://github.com/khripper/GZONE.git",
-    demo: "https://dribble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    demo: "https://abderrahmane-dev.vercel.app/",
   },
 
 

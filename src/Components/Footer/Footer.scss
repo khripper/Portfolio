@@ -17,12 +17,22 @@ footer a {
   display: inline-block;
 }
 
+.Footer-Logo:hover{
+  color: red;
+}
+
 .Permalinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+}
+
+.Permalinks {
+  a:hover{
+    color: red;
+  }
 }
 
 .Footer-Socials {

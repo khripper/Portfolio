@@ -51,7 +51,16 @@ textarea {
   background: transparent;
   border: 2px solid var(--color-white);
   resize: none;
+  outline: none;
   color: var(--color-white);
+}
+
+input::placeholder,textarea::placeholder{
+  color: var(--color-white);
+}
+
+input:focus,textarea:focus{
+  border: 2px solid rgba(255, 0, 0, 0.3);
 }
 
 /* ============ Responsive ( MEDIUM DEVICES ) ============== */

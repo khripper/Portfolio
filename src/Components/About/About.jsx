@@ -3,7 +3,7 @@ import "./About.scss";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFolderCheck } from "react-icons/bs";
-import Me from "../../Assets/Man.png";
+import Me from "../../Assets/Main-Me.png";
 const About = () => {
   return (
     <section id="About">
@@ -20,17 +20,17 @@ const About = () => {
             <article className="About-Card">
               <FaAward className="About-icon" />
               <h5>experience</h5>
-              <small>3+ Years Working</small>
+              <small>12+ Months FreeLancing</small>
             </article>
             <article className="About-Card">
               <FiUsers className="About-icon" />
               <h5>Clients</h5>
-              <small>500+ World Wide</small>
+              <small>30+ World Wide</small>
             </article>
             <article className="About-Card">
               <BsFolderCheck className="About-icon" />
               <h5>Projects</h5>
-              <small >80+ Completed</small>
+              <small >20+ Completed</small>
             </article>
           </div>
           <p>
