@@ -17,8 +17,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_gkcoq0c",
-        "template_v66pz0p",
+        "service_xqg0g14",
+        "template_uxt2wd5",
         form.current,
         "ieTqgGCw6RZtgCkHI"
       )
@@ -43,7 +43,7 @@ const Contact = () => {
           <article className="Contact-Option">
             <MdOutlineMailOutline className="Contact-Option-Icon" />
             <h4>Email</h4>
-            <h5>khabdo2901@gmail.com</h5>
+            <h5 className="ST">Abderrahmane.dev7@gmail.com</h5>
             <a
               href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
               target="_blank"
